@@ -1,0 +1,130 @@
+.foto-home {
+    height: 350px;
+    overflow: hidden;
+    position: relative;
+    width: 120%;
+}
+.secao-inicio {
+    padding: 2em;
+
+}
+
+.saudacao strong {
+    font-size: 7em;
+    color: black;
+
+}
+.saudacao p{
+    text-align: center;
+}
+.botao-index {
+    font-size: 2em;
+    background-color: #0050ff;
+    color: white;
+    padding: .5em;
+    border: .2em solid black;
+    display: block;
+    text-decoration: none;
+    width: 40ch;
+    text-align: center;
+    margin: 2em auto;
+    transition: text-shadow 0.5s, background-color 0.5s;
+}
+
+.botao-index:hover {
+    text-shadow: 0 0 1em #abffff;
+    background-color: #2ea2dc;
+}
+.saudacao em {
+    color: #90b2ff;
+    font-size: 5em;
+    -webkit-transform: rotate(-5deg) skew(-10deg);
+    transform: rotate(-5deg) skew(-10deg);
+    display: inline-block;
+    position: relative;
+    animation: float 1s infinite, float2 1s infinite;
+    animation-timing-function: ease-in-out;
+    animation-direction: alternate;
+}
+
+.saudacao-ultima-linha:hover em {
+    animation-play-state: paused;
+}
+.trabalhos {
+    background-color: #46546b;
+    background-image: linear-gradient(135deg, transparent, transparent 14px, rgba(0, 0, 0, 0.1) 15px, transparent 15px, transparent);
+    background-size: 20px 20px;
+    background-attachment: fixed;
+    border-top: .5em solid black;
+    border-bottom: .5em solid black;
+}
+
+.trabalhos h2 {
+    color: white;
+}
+
+.trabalhos ul {
+    display: flex;
+
+}
+
+.trabalhos li {
+    flex: 1;
+    border: .5em solid black;
+}
+
+.trabalhos li:first-child {
+    transform: scale(1.2);
+    order: 2;
+}
+
+.trabalhos li:nth-child(2) {
+    order: 1;
+}
+
+.trabalhos li:last-child {
+    order: 3;
+}
+
+.trabalhos img {
+    width: 100%;
+    max-height: 230px;
+    display: block;
+}
+
+h2{
+    text-transform: uppercase;
+    font-size: 50px;
+    margin-bottom: 2em;
+}
+h1{
+    font-size: 50px;
+    margin-bottom: 1em;
+}
+footer {
+
+    padding: 2em;
+    color: #000000;
+}
+footer h2{
+    font-size: 3em;
+}
+footer a{
+    color: #5868ff;
+}
+footer a{
+    color: #30405a;
+}
+p{
+    font-size: 20px;
+}.trabalhos{
+     max-width: 100%;
+     -moz-transition: all 0.3s;
+     -webkit-transition: all 0.3s;
+     transition: all 0.3s;
+ }
+.zoom:hover img {
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}

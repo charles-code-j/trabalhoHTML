@@ -1,0 +1,30 @@
+.foto-home {
+    height: 350px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+.foto-gamers{
+    height: 50px;
+    position: relative;
+    width: 20%;
+}
+h2{
+    font-size: 60px;
+}
+
+h1{
+    font-size: 60px;
+}
+
+
+.navegacao-site a {
+    color: inherit;
+    text-transform: lowercase;
+    font-family: "Open Sans Condensed", "Arial", sans-serif;
+
+}
+
+
+
+
